@@ -1,0 +1,58 @@
+/*.row > div {
+    background: #f2f2f2;
+    border-color: #737373;
+    margin: 10px 0;
+}
+
+/*NAV
+.fm-nav a{
+    color:black;
+    padding: 20px;
+
+}*/
+
+body {
+	margin:0;
+    padding:0;
+}
+
+/*HELLO*/
+.hello {
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin-top: 10%;
+    font-size: 6em;
+}
+/*FIN HELLO*/
+
+
+/*EVENTOS*/
+
+#eventos{
+    background: black;
+}
+.columna {
+    /*background: #f2f2f2;*/
+    text-align: center;
+    border: 1px solid #4d5061;
+}
+
+/*BIO*/
+#bio {
+    position: relative;
+    margin: 10%;
+}
+
+.title-bio {
+    position: absolute;
+    margin-top: 10%;
+}
+p {
+    position: absolute;
+    margin-top: 10%;
+}

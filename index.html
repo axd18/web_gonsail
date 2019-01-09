@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalabe=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Template</title>
+</head>
+<body>
+   
+    <!--NAV-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav mr-auto">
+                <a class="nav-item nav-link" href="#">HELLO<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">EVENTOS</a>
+                <a class="nav-item nav-link" href="#">VIDEOS</a>
+                <a class="nav-item nav-link" href="#">FOTOS</a>
+             </div>
+             <div class="navbar-nav">
+                <a class="nav-item nav-link" href="#">BIO</a>
+                <a class="nav-item nav-link" href="#">CONTACTO</a>
+             </div>
+            </div>
+    </nav>
+    <!--FIN NAV-->
+    
+    <!--HELLO-->
+    <section class="hello">
+       
+            <div class="row">
+                <div class="col-sm-12 col-md-12" >
+                    <span class="title">GONSAIL <br>MUSIC</span>
+                    <img class="img-fluid" src="img/eventos.png" alt="">
+                </div>
+            </div>
+        
+    </section>
+    <!--FIN HELLO-->
+
+    <!--EVENTOS-->
+    <section id="eventos">
+        
+            <div class="row">
+                <div class="columna col-md-6">
+                    <div>
+                        <img class="img-fluid" src="img/eventos_1.png" class="img-responsive">
+                    </div>
+                </div>
+                
+                <div class="columna col-md-6">
+                    
+                    <div class="columna">SHOW EN BUENOS AIRES</div>
+                    <div class="columna">PROXIMAMENTE</div>
+                    <div class="columna columna-interior-fecha">15 de Enero LUNA PARK<br>27 de Febreo ESTADIO ABC</div>
+                    <div class="columna columna-interior-entrada"><button type="button" class="btn">Sacar entrada >>></button></div>
+                    <div class="columna columna-interior-countdown">
+                        <span id="faltan">Faltan</span><span id="countdown"> 63 días</span>
+                    </div>
+                </div>
+            </div>
+        
+    </section>
+    <!--FIN EVENTOS-->
+
+    <!--VIDEOS-->
+    <section id="videos">
+        <div class="row">
+            <div class="col">
+                <div class="carousel slide" id="videos-carousel" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#videos-carousel" data-slid-to="0" class="active"></li>
+                        <li data-target="#videos-carousel" data-slid-to="1"></li>
+                    </ol>
+                    
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="img-fluid" src="img/carousel_video_1.png" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid" src="img/carousel_video_1.png" alt="">
+                        </div>
+                    </div>
+
+                    <a href="#videos-carousel" class="carousel-control-prev" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </a>
+                    <a href="#videos-carousel" class="carousel-control-next" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--FIN VIDEOS-->
+    
+    <!--FOTOS-->
+    <section id="fotos">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-lg-4 col-md-8 col-sm-12">
+                    <div class="card">
+                        <img class="img-fluid" src="img/fotos.png" class="card-img-top" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-8 col-sm-12">
+                    <div class="card">
+                        <img class="img-fluid" src="img/fotos.png" class="card-img-top" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-8 col-sm-12">
+                    <div class="card">
+                        <img class="img-fluid" src="img/fotos.png" class="card-img-top" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="descripcion-foto">SHOOTING/</div>
+                    <div class="descripcion-foto">Travel time</div>
+                    <div class="descripcion-foto">Zaragoza</div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <!--FIN FOTOS-->
+    
+
+    <!--BIO-->
+    <section id="bio">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                        <span class="title-bio">BIO/<br>GONSAIL<br>Artista</span>
+                        <p>Nacido en Buenos Aires, su inquietud le llevó
+                            a vivir en varias ciudades en donde fue formando
+                            una personalidad salvaje. Madrid,
+                            Barcelona, Londres son algunas de ellas. Su
+                            próximo destino: Dubai. Mientras, trabaja en
+                            su próximo disco y prepara una gira por América
+                            del Sur. Gonsail es la nueva y joven promesa
+                            de ritmos latinos que promete encender
+                            al público.</p>
+                        <img class="img-fluid" src="img/eventos.png" alt="">
+                </div>
+               
+            </div>
+        </div>
+
+    </section>
+    
+
+    
+    
+    
+    
+   
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
